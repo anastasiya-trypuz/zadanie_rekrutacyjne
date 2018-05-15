@@ -40,6 +40,7 @@ var toggleMenu = function() {
     }
 }
 
+// Event Listeners 
 animated_svg.addEventListener('load', function() {
     var svg_img = animated_svg.contentDocument.rootElement;
     svg_img.addEventListener('click', animateSVG);
